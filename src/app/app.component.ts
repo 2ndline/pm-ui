@@ -9,7 +9,7 @@ import { DataService } from './services/data.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'BaseApplication';
+  name = 'Power Mapper';
   menuItems: MenuItem[];
   constructor(
     public menuService: MenuService,

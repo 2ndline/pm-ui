@@ -7,17 +7,13 @@ import { MenuItem } from '../interfaces/menu-item.interface';
 export class MenuService {
   menuItems: MenuItem[] = [
     {
-      routerLink: '/menu-one',
-      Title: 'Menu One',
+      routerLink: '/search',
+      Title: 'Search',
     },
     {
-      routerLink: '/menu-two',
-      Title: 'Menu Two',
-    },
-    {
-      routerLink: '/menu-three',
-      Title: 'Menu Three',
-    },
+      routerLink: '/settings',
+      Title: 'Settings',
+    }
   ];
   constructor() {}
 

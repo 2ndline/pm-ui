@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './splash-page.component.html',
 })
 export class SplashPageComponent {
-  welcome = 'Welcome to BaseApplication';
+  welcome = 'Welcome to Power Mapper';
   constructor() {}
 }
