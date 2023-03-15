@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
 })
 export class SearchComponent {
   constructor() {}
-  name: string;
+  searchname: string;
+  searchaddress: string;
+  orleansproperty: boolean = false;
+
+  search() {
+    console.log(
+      `Search for name: ${this.searchname}, address: ${this.searchaddress}, orleansproperty: ${this.orleansproperty}`
+    );
+  }
 }
