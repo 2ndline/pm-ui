@@ -24,11 +24,13 @@
       fxHide.gt-sm="true"
     >
       <div fxLayout="column" *ngFor="let options of menuItems">
-        <a mat-button routerLink="options.routerLink">{{ options.Title }}</a>
+        <a mat-button [routerLink]="[options.routerLink]">{{
+          options.Title
+        }}</a>
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
-      <splash-page></splash-page>
+      <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
