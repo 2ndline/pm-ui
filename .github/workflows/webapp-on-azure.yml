@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install and build
       run: |
-        npm install
+        npm i --save-dev @angular/cli @angular-devkit/build-angular @angular/compiler @angular/compiler-cli
         npm run build -- --prod
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v1
