@@ -13,5 +13,7 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
